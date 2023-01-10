@@ -23,17 +23,26 @@
 }
 .prodict_info p {
   margin-bottom: 0px;
+  margin-top: 0px;
+  line-height: 15px;
+  font-weight: 700;
 }
 .btn_cart {
   width: 100%;
   border-radius: 0px 0px 10px 10px;
   border: none;
   background-color: #ffe03b;
-  padding: 20px 20px 15px 0px;
+  padding: 20px 20px 0px 0px;
   position: absolute;
   bottom: 0;
   margin-left: -5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .btn_cart:hover {
   background-color: tomato;
+}
+.btn_text {
+  margin-right: 5px;
 }
